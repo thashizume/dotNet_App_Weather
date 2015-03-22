@@ -6,6 +6,6 @@ README: dotNet_App_Weather
 Visual Studio 2013
 
 ## Depend of Project
-* [dotNet_LIB_WeatherCrawler](https://github.com/thashizume/dotNet_Lib_WeatherCrawler/README.md) Library of site crawler
+* [dotNet_LIB_WeatherCrawler](https://github.com/thashizume/dotNet_Lib_WeatherCrawler/) Library of site crawler
 
 
