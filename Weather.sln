@@ -5,11 +5,14 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Weather", "Weather\Weather.vbproj", "{03F0B53B-A83D-4EE3-9FD9-90BFB2EFA93E}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Datatable2TSV", "..\Datatable2TSV\Datatable2TSV.vbproj", "{9DAA587F-BBAF-4533-A3E4-57D4B55E73EE}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Datatable2TSV", "..\dotNet_Lib_DT2TSV\Datatable2TSV.vbproj", "{9DAA587F-BBAF-4533-A3E4-57D4B55E73EE}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WeatherCrawler", "..\WeatherCrawler\WeatherCrawler.vbproj", "{3845E21E-A50E-4BB8-A040-2758180ED31C}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WeatherCrawler", "..\dotNet_Lib_WeatherCrawler\WeatherCrawler.vbproj", "{3845E21E-A50E-4BB8-A040-2758180ED31C}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WeatherCrawlerUI", "..\WeatherCrawlerUI\WeatherCrawlerUI.vbproj", "{20056E71-B325-4A01-96E7-CF192C911990}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WeatherCrawlerUI", "..\dotNet_UI_WeatherCrawler\WeatherCrawlerUI.vbproj", "{20056E71-B325-4A01-96E7-CF192C911990}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DAA587F-BBAF-4533-A3E4-57D4B55E73EE} = {9DAA587F-BBAF-4533-A3E4-57D4B55E73EE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
